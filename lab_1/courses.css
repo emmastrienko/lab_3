@@ -1,0 +1,68 @@
+body{
+  background-color: #4B1C78;
+}
+
+header {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin: 0;
+  background-color: #371557;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+ul li{
+  color: #fff;
+  display: inline;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+ul{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 10px;
+  margin-left: 50px;
+}
+
+p::before{
+  content: ">> ";
+  color:#ccc;
+}
+
+p::after{
+  content: " >>";
+  color:#371557;
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.svg{
+  margin: 0 10px;
+}
+
